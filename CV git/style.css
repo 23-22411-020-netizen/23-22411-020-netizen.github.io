@@ -1,0 +1,139 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fb;
+  color: #222;
+  margin: 0;
+  padding: 40px;
+  line-height: 1.6;
+}
+
+h1, h3 {
+  text-align: center;
+  color: #0a3d62;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  border-bottom: 3px solid #0a3d62;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-top: 40px;
+  color: #1b4b72;
+}
+.profile-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.name-title h1 {
+  font-size: 2.2rem;
+  color: #0a3d62;
+  margin-bottom: 5px;
+}
+
+.name-title h3 {
+  font-size: 1.3rem;
+  color: #1b4b72;
+  margin: 0;
+  font-style: italic;
+}
+
+.centered-list {
+  list-style: none;
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  padding: 0;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.centered-list:hover {
+  transform: scale(1.01);
+}
+
+.centered-list li {
+  padding: 12px 20px;
+  border-bottom: 1px solid #eee;
+  font-size: 1rem;
+}
+
+.centered-list li:last-child {
+  border-bottom: none;
+}
+
+.centered-list li strong {
+  color: #0a3d62;
+}
+
+/* ========== Hover Effect for List Items ========== */
+.centered-list li:hover {
+  background-color: #eaf2f8;
+  cursor: default;
+  transition: background-color 0.3s ease;
+}
+
+/* ========== Section Container ========== */
+div {
+  margin-bottom: 40px;
+}
+
+/* ========== Responsive Design ========== */
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .centered-list {
+    width: 100%;
+  }
+
+  .centered-list li {
+    font-size: 0.95rem;
+  }
+}
+.bar {
+      background: #ccc;
+      height: 5px;
+      margin: 5px 100px;
+      
+    }
+
+    .fill {
+      background: black;
+      height: 5px;
+    }
+
+    .speak { width: 50%; }
+    .read  { width: 95%; }
+    .write { width: 90%; }
+    .listen{ width: 80%; }
+
+ .timeline p {
+  font-size: 1rem;
+  margin: 10px 0;
+  text-align: left;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
+
+.timeline b {
+  color: #0a3d62;
+}
